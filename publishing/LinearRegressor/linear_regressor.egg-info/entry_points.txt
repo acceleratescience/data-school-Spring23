@@ -1,0 +1,2 @@
+[console_scripts]
+run-csv = linear_regressor.cli:main

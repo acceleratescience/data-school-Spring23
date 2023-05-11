@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linear_regressor"
+version = "0.6.0"
+authors = [
+    {name="Accelerate Science"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU License",
+    "Programming Language :: Python :: 3",
+]
+description = "This package is a guide to packaging a python project"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+]
+
+[project.scripts]
+# Add your command-line entry point
+run-csv = "linear_regressor.cli:main"

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+linear_regressor/__init__.py
+linear_regressor/cli.py
+linear_regressor/linear_regressor.py
+linear_regressor.egg-info/PKG-INFO
+linear_regressor.egg-info/SOURCES.txt
+linear_regressor.egg-info/dependency_links.txt
+linear_regressor.egg-info/entry_points.txt
+linear_regressor.egg-info/requires.txt
+linear_regressor.egg-info/top_level.txt
